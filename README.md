@@ -1,14 +1,14 @@
 # Calculadora de Risco Não-Cancerígeno - Teste REMA/UFSC
 
-[cite_start]Aplicação desenvolvida como parte do processo seletivo de bolsa para projetos de software 3D do Núcleo Ressacada de Pesquisas em Meio Ambiente (REMA) da Universidade Federal de Santa Catarina (UFSC)[cite: 4, 5].
+Aplicação desenvolvida como parte do processo seletivo de bolsa para projetos de software 3D do Núcleo Ressacada de Pesquisas em Meio Ambiente (REMA) da Universidade Federal de Santa Catarina (UFSC).
 
-[cite_start]O objetivo da aplicação é avaliar o risco não carcinogênico à saúde humana com base nas equações e dados toxicológicos de referência[cite: 7].
+O objetivo da aplicação é avaliar o risco não carcinogênico à saúde humana com base nas equações e dados toxicológicos de referência.
 
 ---
 
 ## Funcionalidades
 
-* [cite_start]**Cálculo de Risco Preciso:** Implementa as equações de Ingestão (I) e Quociente de Risco (QR) conforme especificado[cite: 11, 22].
+* **Cálculo de Risco Preciso:** Implementa as equações de Ingestão (I) e Quociente de Risco (QR) conforme especificado.
 * **Base de Dados Completa:** Permite a seleção de mais de 900 contaminantes com suas respectivas Doses de Referência (RfD).
 * **Interface Moderna:** Interface de usuário limpa, reativa e fácil de usar, construída com ferramentas modernas.
 * **Validação em Tempo Real:** Fornece feedback ao usuário para garantir que os dados de entrada sejam válidos antes do cálculo.
