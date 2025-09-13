@@ -1,0 +1,32 @@
+# Ignore dependências do Node.js
+# A pasta node_modules é recriada com o comando 'npm install'
+node_modules/
+
+# Ignore a pasta de saída da compilação (build)
+# Esta pasta contém o código JavaScript gerado, não o código-fonte
+dist/
+
+# Ignore o arquivo de cache do TypeScript
+.tsbuildinfo
+
+# Ignore logs do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Ignore arquivos de ambiente (que podem conter senhas e chaves de API)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore arquivos de configuração do editor/IDE
+# Mantém o repositório limpo de configurações pessoais de cada desenvolvedor
+.vscode/
+.idea/
+
+# Ignore arquivos de sistema operacional
+.DS_Store
+Thumbs.db

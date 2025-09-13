@@ -1,0 +1,19 @@
+{
+  "name": "prova-tecnica-rema",
+  "version": "1.0.0",
+  "description": "Calculadora de risco não cancerígeno - Prova Técnica REMA",
+  "main": "dist/main.js",
+    "scripts": {
+    "build": "tsc",
+    "dev": "npx serve dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.0",
+    "typescript": "^5.9.2"
+  }
+}
