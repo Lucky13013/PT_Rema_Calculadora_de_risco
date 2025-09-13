@@ -2,9 +2,6 @@
 # A pasta node_modules é recriada com o comando 'npm install'
 node_modules/
 
-# Ignore a pasta de saída da compilação (build)
-# Esta pasta contém o código JavaScript gerado, não o código-fonte
-dist/
 
 # Ignore o arquivo de cache do TypeScript
 .tsbuildinfo

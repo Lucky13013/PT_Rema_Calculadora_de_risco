@@ -2,13 +2,12 @@
 
 import { getRfD, listContaminants } from "./services/contaminants.js";
 import { calculateRisk } from "./services/calculator.js";
-import { IntakeParameters } from "./types/types";
+import { IntakeParameters } from "./types/types.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const select = document.getElementById("contaminant-input") as HTMLSelectElement;
   const calculateButton = document.getElementById("calculateBtn");
 
- 
   const contaminantNames = listContaminants();
 
   contaminantNames.forEach(name => {
@@ -39,7 +38,6 @@ function handleCalculation() {
     AT: Number((document.getElementById("AT") as HTMLInputElement).value)
   };
 
-
   if (Object.values(params).some(value => isNaN(value) || value < 0)) {
     alert("Erro: Por favor, preencha todos os campos com números positivos válidos.");
     return;
@@ -50,13 +48,11 @@ function handleCalculation() {
     return;
   }
 
-
   const rfd = getRfD(contaminantName);
   if (!rfd) {
     alert(`Erro: O contaminante "${contaminantName}" não foi encontrado.`);
     return;
   }
-
 
   const result = calculateRisk(rfd, params);
 
